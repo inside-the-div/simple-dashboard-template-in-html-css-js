@@ -49,7 +49,7 @@ body{
 }
 .container{
     display: flex;
-    width: 800px;
+    width: 850px;
     height: 500px;
     margin: 0px auto;
     position: relative;
@@ -144,7 +144,19 @@ body{
     align-items: center;
     margin-left: auto;
   }
-  
+  .btn{
+    display: block;
+    border: none;
+    background-color: #b3bdb3;
+    color: #333;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 800;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  } 
 .btn-login, .btn-logout {
     background-color: #fff;
     color: #333;
@@ -160,6 +172,7 @@ body{
 .btn-login:hover, .btn-logout:hover {
     background-color: #f1f1f1;
   }
+  
 .content-body{
     overflow-y: scroll;
     display: flex;

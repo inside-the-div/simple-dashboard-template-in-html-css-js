@@ -19,22 +19,19 @@
             
             <ul class="sidebar-nav">
                 <li class="nav-item">
-                    <a href="#">All Students</a>
+                    <a href="all-students.html">All Students</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Add Students</a>
+                    <a href="add-student.html">Add Students</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">All Courses</a>
+                    <a href="all-courses.html">All Courses</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Add Courses</a>
+                    <a href="all-teachers.html">All Teachers</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">All Teachers</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#">Add Teachers</a>
+                    <a href="add-teacher.html">Add Teachers</a>
                 </li>
             </ul>
         </nav>
@@ -63,7 +60,10 @@
 
             <div class="content-body">
                 <div class="body-heading">
-                    <h2>Add Teacher</h2>                    
+                    <h2>Add Teacher</h2>
+                    <div class="body-heading-buttons">
+                        <a href="all-teachers.html"><button  id="showAllTeachers" class="btn">Show All</button></a>                        
+                    </div>                   
                 </div>
                 
                 <div class="student-form">
@@ -332,46 +332,9 @@
                                         <option value="zambian">Zambian</option>
                                         <option value="zimbabwean">Zimbabwean</option>
                                     </select>
-                                </div>
-                                <div class="input-items">
-                                    <label for="language">Language:</label>
-                                    <select name="language" id="language">
-                                         <option value="">Select a Language</option>
-                                         <option value="bangla">Bangla</option>
-                                         <option value="english">English</option>
-                                   </select>                          
-                                </div>
-                                
+                                </div>                         
                             </div>
-                        </fieldset>
-
-                        <fieldset class="student-row2">
-                            <legend>Parents Information:</legend>
-                            <div class="input-items">
-                                <label for="fatherName">Father Name:</label>
-                                <input type="text" id="fatherName">
-                            </div>
-                            <div class="input-items">
-                                <label for="fatherNumber">Father Number:</label>
-                                <input type="tel" id="fatherNumber">
-                            </div>
-                            <div class="input-items">
-                                <label for="fathersOccupation">Father Occupation:</label>
-                                <input type="text" id="fathersOccupation">
-                            </div>
-                            <div class="input-items">
-                                <label for="motherName">Mother Name:</label>
-                                <input type="text" id="motherName">
-                            </div>
-                            <div class="input-items">
-                                <label for="motherNumber">Mother Number:</label>
-                                <input type="tel" id="motherNumber">
-                            </div>
-                            <div class="input-items">
-                                <label for="motherOccupation">Mother Occupation:</label>
-                                <input type="text" id="motherOccupation">
-                            </div>
-                        </fieldset>
+                        </fieldset>                        
 
                         <fieldset class="student-row2">
                             <legend>Other Information:</legend>   

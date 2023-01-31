@@ -49,7 +49,7 @@ body{
 }
 .container{
     display: flex;
-    width: 800px;
+    width: 850px;
     height: 500px;
     margin: 0px auto;
     position: relative;
@@ -178,6 +178,19 @@ body{
 .btn-login:hover, .btn-logout:hover, .btn-save:hover {
     background-color: #f1f1f1;
   }
+  .btn{
+    display: block;
+    border: none;
+    background-color: #b3bdb3;
+    color: #333;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 800;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
 .content-body{
     overflow-y: scroll;
     display: flex;
@@ -185,6 +198,14 @@ body{
     height: 100%;
     padding: 10px;
     background-color: white;
+}
+.body-heading{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.body-heading-buttons{
+  display: flex;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -242,7 +263,7 @@ body{
   border-radius: 4px;
 }
 .student-row-right{
-  display: flex;  
+  display: flex;
   padding-right: 35px;
   align-items: flex-end;
 }
@@ -286,5 +307,5 @@ fieldset{
   width: 410px;
 }
 .feild-1{
-    margin-bottom: 10px;
-  }
+  margin-bottom: 10px;
+}
