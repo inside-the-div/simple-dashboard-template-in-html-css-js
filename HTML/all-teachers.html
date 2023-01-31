@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../CSS/all-teacher-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Teacher</title>
+</head>
+<body>
+    <h1 class="project-heading">Student management system</h1>
+    <div class="container">
+        <nav id="navbar" class="navbar">
+            <div class="nav-header">
+                <h2 class="sidebar-header">SMS</h2>
+            </div>
+            
+            <ul class="sidebar-nav">
+                <li class="nav-item">
+                    <a href="#">All Students</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Add Students</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">All Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Add Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">All Teachers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Add Teachers</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <div class="menu">
+                <!-- <ul class="menu-list">
+                    <li class="menu-item">
+                      <a href="#">Home</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">About</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Services</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Contact</a>
+                    </li>
+                  </ul> -->
+                  <div class="menu-right">
+                    <button class="btn-login">Login</button>
+                    <button class="btn-logout">Logout</button>
+                  </div>
+            </div>
+
+            <div class="content-body">
+                <div class="body-heading">
+                    <h2>All Teacher</h2>                    
+                </div>
+
+                <div class="data-table">
+                    <table id="studentTable">
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Action</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Kamrul Hasan</td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button id="btnShow" class="btn">Show</button>
+                                    <button id="btnEdit" class="btn">Edit</button>                                    
+                                    <button id="btnDelete" class="btn">Delete</button>
+                                </div>                                
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id="footer" class="footer">
+                <p>&copy Copyright <span id="copyrightYear">2023</span> Kamrul Hasan</p>
+            </div>
+        </div>        
+    </div>
+
+    <script src="Javascript/main.js"></script>
+</body>
+</html>
