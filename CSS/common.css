@@ -76,28 +76,30 @@ body{
     text-transform: uppercase;
     letter-spacing: 2px;
   }
-  
-  .sidebar-nav {
+.sub-heading{
+  font-size: 10px;
+}
+.sidebar-nav {
     list-style: none;
     margin: 0;
     padding: 0;
-  }
-  
-  .nav-item {
+}
+
+.nav-item {
     margin: 10px 0;
-  }
-  
-  .nav-item a {
+}
+
+.nav-item a {
     color: #fff;
     text-decoration: none;
     font-size: 17px;
     display: block;
     padding:10px 20px;
-  }
-  
-  .nav-item a:hover {
+}
+
+.nav-item a:hover {
     background-color: #444;
-  }
+}
 .content{
     display: flex;
     flex-direction: column;
@@ -144,7 +146,19 @@ body{
     align-items: center;
     margin-left: auto;
   }
-  
+  .btn{
+    display: block;
+    border: none;
+    background-color: #b3bdb3;
+    color: #333;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 800;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  } 
 .btn-login, .btn-logout {
     background-color: #fff;
     color: #333;
@@ -156,23 +170,43 @@ body{
     font-weight: 800;
     margin-left: 20px;
   }
+  .btn-save{
+  display: block;
+  border: none;
+  background-color: #b3bdb3;
+  color: #333;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 5px ;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 800;
+  min-width: 100px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
   
-.btn-login:hover, .btn-logout:hover {
+.btn-login:hover, .btn-logout:hover, .btn-save:hover {
     background-color: #f1f1f1;
   }
+
+.body-heading{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .body-heading-buttons{
+    display: flex;
+  }
+  
 .content-body{
-  position: relative;
+    position: relative;
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
     height: 100%;
     padding: 10px;
     background-color: white;
-}
-.body-heading{
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -224,7 +258,7 @@ body{
   border: none;
   background-color: #b3bdb3;
   color: #333;
-  margin: 5px;
+  margin: 0 auto;
   padding: 5px 10px;
   border-radius: 4px;
   cursor: pointer;
@@ -283,4 +317,63 @@ body{
 .btn-close-modal{
   background: rgb(182, 31, 31);
   color: white;
+}
+.student-form form{
+  display: flex;
+  flex-direction: column; 
+}
+.input-items select{
+  height: 30px;
+  width: 200px;
+  padding: 5px;
+  margin: 2px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.student-row-right{
+  display: flex;
+  padding-right: 35px;
+  align-items: flex-end;
+}
+.person-photo{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  margin: 2px;
+}
+.student-row1{
+ display: flex;
+ margin-bottom: 10px;
+ justify-content: space-between;
+}
+.student-row-left{
+ display: grid;
+ grid-template-columns: 200px 200px;
+ gap: 10px;
+ margin-right: 10px;
+}
+fieldset{
+  padding: 10px;
+}
+.student-row2{
+  display: grid;
+  grid-template-columns:200px 200px 200px;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.student-row3{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  gap: 10px;
+  margin-bottom: 10px;
+  justify-content: start;
+}
+.address-feild{
+  grid-column: 1 / 3;
+}
+.address-feild input{
+  width: 410px;
+}
+.feild-1{
+  margin-bottom: 10px;
 }
